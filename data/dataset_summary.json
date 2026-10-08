@@ -1,0 +1,93 @@
+{
+  "dataset_name": "CUB-200-2011 (Caltech-UCSD Birds-200-2011)",
+  "num_images": 11788,
+  "num_classes": 200,
+  "train_images": 5994,
+  "test_images": 5794,
+  "class_balance": {
+    "min_per_class": 41,
+    "max_per_class": 60,
+    "mean_per_class": 58.94,
+    "std_per_class": 2.911425767557882
+  },
+  "sample_dimensions": {
+    "samples_checked": 513,
+    "mean_width": 471.7797270955166,
+    "mean_height": 385.94541910331384,
+    "min_width": 142,
+    "max_width": 500,
+    "min_height": 160,
+    "max_height": 500,
+    "formats": {
+      "JPEG": 513
+    }
+  },
+  "annotations_present": {
+    "bounding_boxes": true,
+    "part_locations": true,
+    "attributes": true,
+    "train_test_split": true
+  },
+  "sample_classes": [
+    {
+      "id": 1,
+      "name": "Black footed Albatross",
+      "raw": "001.Black_footed_Albatross",
+      "count": 60
+    },
+    {
+      "id": 2,
+      "name": "Laysan Albatross",
+      "raw": "002.Laysan_Albatross",
+      "count": 60
+    },
+    {
+      "id": 3,
+      "name": "Sooty Albatross",
+      "raw": "003.Sooty_Albatross",
+      "count": 58
+    },
+    {
+      "id": 4,
+      "name": "Groove billed Ani",
+      "raw": "004.Groove_billed_Ani",
+      "count": 60
+    },
+    {
+      "id": 5,
+      "name": "Crested Auklet",
+      "raw": "005.Crested_Auklet",
+      "count": 44
+    },
+    {
+      "id": 6,
+      "name": "Least Auklet",
+      "raw": "006.Least_Auklet",
+      "count": 41
+    },
+    {
+      "id": 7,
+      "name": "Parakeet Auklet",
+      "raw": "007.Parakeet_Auklet",
+      "count": 53
+    },
+    {
+      "id": 8,
+      "name": "Rhinoceros Auklet",
+      "raw": "008.Rhinoceros_Auklet",
+      "count": 48
+    },
+    {
+      "id": 9,
+      "name": "Brewer Blackbird",
+      "raw": "009.Brewer_Blackbird",
+      "count": 59
+    },
+    {
+      "id": 10,
+      "name": "Red winged Blackbird",
+      "raw": "010.Red_winged_Blackbird",
+      "count": 60
+    }
+  ]
+}
